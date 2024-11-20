@@ -1,0 +1,51 @@
+body {
+  font-family: cursive;
+  background-image: url(./heart.jpeg);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  border: 40px solid rgb(255, 20, 71);
+  background-color: aliceblue;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex; 
+  flex-direction: row; 
+}
+
+.container1 {
+  flex: 1; 
+  background-color: #ffe4e1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; /* Center-align text horizontally */
+}
+
+.container2 {
+  flex: 1; 
+  background-color: #ffe4e1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.container2 img {
+  max-width: 95%; 
+  max-height: 85%; 
+  object-fit: cover; 
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+p {
+  color: rgb(255, 20, 71);
+}
